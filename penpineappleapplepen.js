@@ -21,3 +21,5 @@ document.addEventListener("mousemove", function(banana) {
         stuff.remove();
     }, 700)
 });
+
+// im so tired im not even going to add ux bro, gn
