@@ -3,3 +3,13 @@
 
 const $ = document.querySelector.bind(document);
 const $$ = document.querySelectorAll.bind(document);
+
+document.addEventListener("mousemove", function(banana) {
+    const stuff = document.createElement("div");
+    stuff.className = "trail";
+
+    stuff.style.left = (banana.clientX - 7) + "px";
+    stuff.style.top = (banana.clientY - 7) + "px";
+
+    document.body.appendChild(stuff);
+})

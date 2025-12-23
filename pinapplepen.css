@@ -5,13 +5,14 @@ body {
     font-weight: 400;
     font-size: 3em;
     font-style: normal;
+    overflow: hidden;
 }
 
 .trail {
     position: fixed;
     width: 10px;
     height: 10px;
-    background-color: #879694;
+    background-color: #96d2ca;
     border-radius: 50%;
     pointer-events: none;
     transition: transform 0.5s ease-out, opacity 0.5s ease-out;
