@@ -2,5 +2,7 @@ body {
     background: #454545;
     color: #8e8e8e;
     font-family: "Cute Font", sans-serif;
+    font-weight: 400;
+    font-size: 3em;
     font-style: normal;
 }
