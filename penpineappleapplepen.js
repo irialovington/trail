@@ -12,4 +12,12 @@ document.addEventListener("mousemove", function(banana) {
     stuff.style.top = (banana.clientY - 7) + "px";
 
     document.body.appendChild(stuff);
-})
+    setTimeout(() => {
+        stuff.style.transform = `scale(0)`;
+        stuff.style.opacity = `0`;
+    }, 10); // is a semi colon supposed to be there.. maybe hmm idk
+
+    setTimeout(() => {
+        stuff.remove();
+    }, 700)
+});
