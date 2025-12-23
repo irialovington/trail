@@ -6,3 +6,18 @@ body {
     font-size: 3em;
     font-style: normal;
 }
+
+.trail {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background-color: #879694;
+    border-radius: 50%;
+    pointer-events: none;
+    transition: transform 0.5s ease-out, opacity 0.5s ease-out;
+}
+
+.go-away {
+    transform: scale(0);
+    opacity: 0;
+}
